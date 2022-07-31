@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    justify-content: center;
+    padding: 100px 150px 100px 150px;
+    background-color: lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    }
+    
+     
+    .sedan-container{
+        display: grid;
+        justify-content: center;
+        background-color: orange;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color: white;
+        padding: 50px 30px 50px 30px;
+    }
+    .suv-container{
+            display: grid;
+            background-color: darkcyan;
+            padding: 50px 30px 50px 30px;
+    }
+    .luxury-container{
+                display: grid;
+                background-color: darkgreen;
+                padding: 50px 30px 50px 30px;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+    }
+    .btn{
+        padding: 10px 20px 10px 20px;
+        border-radius: 20px;
+        background-color: white;
+    }
